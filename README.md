@@ -51,10 +51,10 @@ koa_qiniu
 > npm start
 ```
 
-### 配置ACCESS_KEY AND SECRET_KEY
-
-
-
 
 ### 访问
-> `http://localhost:3000/uploader`
+> `http://127.0.0.1:3000/uploader`
+
+
+
+
