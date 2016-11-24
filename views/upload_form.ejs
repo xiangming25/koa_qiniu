@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form表单提交</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <pre>http://developer.qiniu.com/docs/v6/api/overview/up/form-upload.html</pre>
+	<iframe src="" id="iframe" name="upload" style="display: none;"></iframe>
+    <form method="post" action="http://upload.qiniu.com/" id="uploadForm" enctype="multipart/form-data" target="upload">
+	  <input name="token" id="token" type="hidden" value="">
+	  <input name="file" type="file" id="file" onchange="changeFile()" />
+	  <input name="key" id="key" type="hidden" value="">
+	  <input type="submit" name="" value="提交">
+	</form>
+    <script type="text/javascript" src="/javascripts/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+    		// getToken('images1.png');
+    	});
+
+    	/**
+    	 * 从后台获取token
+    	 * @return {[type]} [description]
+    	 */
+    	function getToken(fileName){
+    		$.get('/token',{
+    			name:fileName
+    		},function(response){
+    			$('#token').val(response.data.token);
+    		});
+    	}
+
+    	/**
+    	 * 文件发生改变时
+    	 * @return {[type]} [description]
+    	 */
+    	function changeFile(){
+    		var file = $('#file').val();
+    		file = file.split('\\');
+    		var fileName = file[file.length - 1];
+    		getToken(fileName);
+    		$('#key').val(fileName);
+    		// $('#uploadForm').submit();
+    	}
+    </script>
+  </body>
+</html>
