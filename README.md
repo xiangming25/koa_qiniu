@@ -41,7 +41,7 @@ koa_qiniu
 
 > package.json
 
-
+---
 
 ### 使用方法
 ```
@@ -59,6 +59,7 @@ koa_qiniu
 > npm start
 ```
 
+---
 
 ### 访问
 > `http://127.0.0.1:3000/uploader`
