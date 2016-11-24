@@ -4,16 +4,16 @@ koa作为后台服务器，上传文件到七牛网站上
 
 
 ### 文件目录结构
-koa_qiniu
-	| bin
-		| www
-	| public
-		| images
-		| javascripts
-		| stylesheets
-	| routes
-		| index.js
-		| users.js
+koa_qiniu  
+	| bin  
+		| www  
+	| public  
+		| images  
+		| javascripts  
+		| stylesheets  
+	| routes  
+		| index.js  
+		| users.js  
 
 
 
