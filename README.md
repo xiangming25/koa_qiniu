@@ -69,8 +69,8 @@ koa_qiniu
 
 ### 需要的文件的外部链接
 
-[参考网址-七牛](http://developer.qiniu.com/code/v6/sdk/javascript.html)
+[参考网址-七牛 http://developer.qiniu.com/code/v6/sdk/javascript.html](http://developer.qiniu.com/code/v6/sdk/javascript.html)
 
-[plupload 下载](http://www.plupload.com/download/)
+[plupload 下载 http://www.plupload.com/download/](http://www.plupload.com/download/)
 
 
