@@ -65,5 +65,8 @@ koa_qiniu
 > `http://127.0.0.1:3000/uploader`
 
 
+[参考网址-七牛](http://developer.qiniu.com/code/v6/sdk/javascript.html)
+
+[plupload 下载](http://www.plupload.com/download/)
 
 
