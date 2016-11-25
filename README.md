@@ -47,6 +47,7 @@ koa_qiniu
 ```
 > git clone git@github.com:ming25/koa_qiniu.git
 > cd koa_qiniu
+> npm install
 
  # 修改config 配置
  1. 修改ACCESS_KEY值
@@ -54,8 +55,7 @@ koa_qiniu
  3. 修改Bucket_Name值
  4. 修改Uptoken_Url值
  5. 修改Domain值
-
-> npm install
+ 
 > npm start
 ```
 
